@@ -164,7 +164,7 @@ export default {
 			for (let year = start; year <= end; year++) {
 				years.push(year);
 			}
-			return years;
+			return years; 
 		},
 		getDaysInMonth(year, month) {
 			if (month >= 1 && month <= 6) {
